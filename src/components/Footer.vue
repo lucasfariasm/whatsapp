@@ -45,4 +45,15 @@ export default {
   .imgLinkedin:hover {
     opacity: .5;
   }
+
+  @media (max-width: 500px){
+    footer {
+      width: initial;
+      max-width: 100%!important;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
 </style>

@@ -278,7 +278,49 @@ export default {
   }
 
   @media (max-width: 500px) {
-    .inputs, .btn{
+    section .color:nth-child(1) {
+      top: -175px;
+      width: 300px;
+      height: 300px;
+    }
+
+    section .color:nth-child(2) {
+      bottom: -75px;
+      left: 50px;
+      width: 250px;
+      height: 250px;
+    }
+
+    section .color:nth-child(3) {
+      bottom: 25px;
+      right: 50px;
+      width: 150px;
+      height: 150px;
+    }
+    
+    .card .square:nth-child(1) {
+      top: 0px;
+      right: 0px;
+      width: 170px;
+      height: 170px;
+    }
+
+    .card .square:nth-child(2) {
+      width: 150px;
+      height: 150px;
+    }
+
+    .card .square:nth-child(3) {
+      bottom: 0px;
+      width: 155px;
+      height: 155px;
+    }
+
+    .content {
+      padding: 50px 5px;
+    }
+    
+    .inputs{
       width: 90%;
     }
 
