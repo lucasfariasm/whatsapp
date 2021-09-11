@@ -19,6 +19,8 @@ export default {
   footer {
     width: 100%;
     height: 50px;
+    position: absolute;
+    bottom: 0;
   }
 
   footer div {
@@ -48,6 +50,7 @@ export default {
     footer {
       width: initial;
       max-width: 100%!important;
+      position: initial;
     }
 
     p {
