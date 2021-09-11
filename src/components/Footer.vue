@@ -18,9 +18,7 @@ export default {
 <style scoped>
   footer {
     width: 100%;
-    height: 20%;
-    position: absolute;
-    bottom: 0;
+    height: 50px;
   }
 
   footer div {
@@ -38,7 +36,7 @@ export default {
   }
 
   .imgLinkedin, .imgLinkedin img {
-    height:70%;
+    height:100%;
     transition: .2s;
   }
 
